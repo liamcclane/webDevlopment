@@ -1,0 +1,126 @@
+*{
+    /* outline: 1px dotted red; */
+    padding-top: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    margin: 0 auto;
+}
+ @media only screen and (max-width: 480px){ /*phone */
+    .sq {
+        /* we will not display anything with the class .sm-0 if the screen's width is less than 480px */
+        /* display: none; */
+        background-color: lightyellow;
+        display: block;
+     }
+    /* button{
+        width: 90%;
+    } */
+}
+@media only screen and (min-width: 481px ) and (max-width: 1040px){ /* tablet */
+    .sq{
+        /* anything with the class .med-1 will get 25% of the available width if the screen's width is greater than 480px */
+        width: 85%;
+        background-color: lightblue;
+        display: block;
+    }
+    button{
+        width: 40%;
+        padding: 20%;
+    }
+}
+button{
+    display: block;
+    border-radius: 10px;
+    padding: 7px;
+    background-color: darkgreen;
+    color: white;
+    font-size: 15px;
+    box-shadow: 5px 6px 9px 0px #100;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+}
+h4{
+    color: white;
+    text-align: left;
+    font-size: 1.5em;
+    padding: 0.25em;
+    background-image: linear-gradient(rgb(176, 175, 180), rgb(139,138,150), rgb(176, 175,180));
+}
+p{
+    padding: 0em 0.5em 0.5em 0.5em;
+}
+span{
+    margin-left: 67%;
+    vertical-align: bottom;
+}
+.sq{
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(219, 204, 218));
+    width: 32%;
+    min-height: 33em;
+    display: inline-block;
+    margin-left: 0.5em;
+    margin-top: 1em;
+    text-align: left;
+    padding-bottom: 0.5em;
+}
+.banner{
+    max-width: 1007px;
+}
+.wrapper{
+    background-image: radial-gradient(rgb(111, 89, 100),rgb(111, 89, 100), rgb(27, 11, 15));
+    max-width: 970px;
+    padding: 1.25em;
+}
+.hero{
+    text-align: center;
+}
+    .hero img{
+        min-height: 19em;
+        max-width: 48%;
+        background-color: lightslategray;
+        padding: 0.5em;
+    }
+    .sq_top{
+        display: inline-block;
+        width: 48%;
+        margin-left: 0.5em;
+        margin-top: 0em;
+        min-height: 20em;
+        vertical-align: top;
+        padding-bottom: 0em;
+    }
+    .sq_top p{
+        height: 85%;
+    }
+    .sq_top a{
+        padding-bottom: 0em;
+        margin-left: 0.5em;
+    }
+.main_content{
+    text-align: center;
+}
+    .des_img{
+        height: 10.7em;
+    }
+.icons{
+    padding: 0.25em 0.13em;
+    min-width: 3em;
+}
+.footer{
+    text-align: center;
+}
+    .social_links{
+        display: inline-block;
+    }
+    .social_links img{
+        vertical-align: middle;
+    }
+    .social_links a{
+        vertical-align: middle;
+        text-align: center;
+    }
+img{
+    height: 35px;
+}
